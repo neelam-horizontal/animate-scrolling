@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "NeueMontreal-Regular FoundersGrotesk-Semibold";
+  src: local("NeueMontreal-Regular FoundersGrotesk-Semibold"),
+    url("./assets/fonts/NeueMontreal-Regular.ttf"),
+    url("./assets/fonts/FoundersGrotesk-Semibold.ttf") format("truetype");
+  font-weight: bold;
+}
+
+.font-nm {
+  font-family: "NeueMontreal-Regular";
+}
+
+.font-fg {
+  font-family: "FoundersGrotesk-Semibold";
+}
